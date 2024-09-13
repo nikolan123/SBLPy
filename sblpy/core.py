@@ -70,7 +70,7 @@ async def construct_fake_context(bot, channel: discord.TextChannel, author):
         ctx.author = author
         break
 
-    return ctx  # says undefined, fuck off pycharm it IS defined.
+    return ctx  # It says "undefined," but PyCharm is incorrect—it is defined.
 
 
 class SBLP:
